@@ -1,0 +1,141 @@
+@font-face{
+	src: url('../fonts/Roboto-Regular.ttf');
+	font-family: roboto;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+}
+.logo,.calender{
+	margin-top: 2.3em;
+}
+.calender img{
+	margin-left: 1em;
+}
+.calender h1{
+	font-size: 1.4em;
+	font-family: roboto;
+	display: inline-block;
+	color: #848e9a;
+}
+.calender p{
+	margin-top: 0.57em;
+	font-family: roboto;
+	font-size: 1em;
+	color: #848e9a;
+}
+.newage{
+	margin: 20px 0;
+	background-color: #576379;
+}
+.newage p{
+	font-family: roboto;
+	margin-left: 0.60em;
+	font-size: 1.3em;
+	color: white;
+	padding: 0.40em 0;
+}
+
+.ticket{
+	padding: 15px 14px 13px 12px;
+	border: 1px solid #d5d8dd;
+}
+.pl{
+	padding-left: 0;
+}
+.mt{
+	margin-top: 16px;
+}
+.pr{
+	padding-right: 0;
+}
+.tic{
+	margin-left: 6px;
+}
+.tic h5{
+	color: #993a96;
+	font-weight: bold;
+	margin-top: 12px;
+	margin-bottom: 3px;
+}
+.tic h5.clr{
+	color: #2195a4;
+}
+.tic p{
+	font-weight: bold;
+	font-size: 12px;
+}
+.task{
+	padding: 8px 14px 7px 12px;
+	border: 1px solid #d5d8dd;
+}
+.task h5.clc{
+	color: #2b5770;
+}
+.tasked{
+	margin-left: 6px;
+}
+.tasked h5{
+	color: #104ea1;
+	font-weight: bold;
+	margin-top: 12px;
+	margin-bottom: 10px;
+}
+.task p{
+	font-size: 12px;
+}
+.internal{
+	border: 1px solid #aab1bb;
+	padding: 15px 56px 15px 30px;
+	margin-bottom: 28px;
+}
+.internal h4{
+	font-size: 18px;
+	color: #4f6131;
+	font-weight: bold;
+}
+.internal img{
+	margin-right: 19px;
+}
+.left{
+	margin-left: 110px;
+}
+h4.bg{
+	color: #19a9aa;
+	line-height: 62px;
+}
+h4.bg-1{
+	margin-top: 15px;
+	color: #1d59a2;
+}
+h4.bg-2{
+	margin-top: 15px;
+	color: #ce1f48;
+}
+.internal p{
+	color: #868688;
+	font-size: 19px;
+	line-height: 32px;
+}
+.footer{
+	background-color: #566376;
+	padding: 23px 0;
+}
+.footer p{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+@media only screen and (max-width: 992px){
+	.pl,.pr{
+		padding: 0;
+	}
+	.mmt{
+		margin-top: 20px;
+	}
+	.logo{
+		text-align: center;
+	}
+	.calender{
+		text-align: center;
+	}
+}
